@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    width: 39.625rem;
+    height: 29.375rem;  
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.13);
+}
+
+.first-card {
+    width: 100%;
+    height: 15.3125rem;
+    border-radius: 6px 6px 0 0;
+    background-color: white; 
+}
+
+.first-card > h1 {
+    color: hsl(179, 62%, 43%);
+    margin: 2.5rem 0 0.5rem 2.5rem;
+}
+
+.first-card > h2 {
+    font-size: 1.1em;
+    color: hsl(71, 73%, 54%);
+    margin: 0rem 0 0 2.5rem;  
+}
+
+.first-card > p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: hsl(218, 22%, 67%);
+    margin: 0rem 0 0 2.5rem; 
+    padding: 0 3rem 2rem 0;
+}
+
+/* car cyan initial*/
+
+.second-card {
+    display: flex;
+    width: 39.6rem;
+    height: 17.9rem;
+    display: flex;
+}
+
+.left-card {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 6px;
+}
+
+.left-card > h2 {
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    margin: 2.5rem 0 0.5rem 2.5rem;
+}
+
+.left-card > h3 {
+    font-size: 2em;
+    color: white;
+    margin: 1.1rem 0 0.5rem 2.5rem;
+}
+
+span {
+    color: rgba(255, 255, 255, 0.425);
+    font-size: 0.5em;
+    padding-left: 1rem;
+    font-weight: 400;
+}
+
+.left-card > p {
+    color: rgba(255, 255, 255, 0.719);
+    font-weight: 400;
+    margin: 0rem 0 0.5rem 2.5rem;
+}
+
+button {
+    padding: 0.8rem 6rem 1rem 5rem;
+    margin: 1.5rem 1.5rem 0 2.5rem;
+    background-color:hsl(71, 73%, 54%);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.185);
+}
+
+.right-card {
+    width: 50%;
+    height: 100%;
+    background-color: hsla(179, 62%, 43%, 0.767);
+    border-radius: 0px 0px 6px 0px;
+}
+
+.right-card > h4 {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 2.5rem 0 0.5rem 2.5rem;
+}
+
+.right-card > ul {
+    margin: 1.2rem 0 0.5rem 2.5rem;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 700px) {
+    .container-card {
+        min-width: 100vh;
+        width: 16.25rem;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-card {
+        width: 50.6%;
+        height: 16.875rem;
+    }
+
+    .first-card > h1 {
+        margin: 1.7rem 0 0.5rem 1.5rem;
+        font-size: 1.3em;
+    }
+
+    .first-card> h2 {
+        margin: 0rem 0 0rem 1.5rem;
+        font-size: 1em;
+    }
+
+    .first-card > p {
+        margin: 0rem 0 0rem 1.5rem;
+        font-size: 0.88em;
+        padding: 0 1rem 0 0;
+        line-height: 1.9em;
+    }
+ 
+    .second-card {
+        width: 50%;
+        height: 28.5625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-card {
+        width: 100%;
+        height: 16.0625rem;
+        border-radius: 0;
+    }
+
+    .left-card > h2 {
+        font-size: 1.1em;
+        margin: 1.7rem 0 0.5rem 1.5rem;
+    }
+
+    .left-card > h3 {
+        font-size: 2em;
+        margin: 1.1rem 0 0.5rem 1.5rem;
+    }
+
+    .left-card > p {
+        margin: 0 0 0.5rem 1.5rem;
+    }
+
+    button {
+        padding: 0.8rem 6.5rem 1rem 6.5rem;
+        margin: 1.1rem 1rem 0 1.5rem;
+        font-size: 1em;
+    }
+
+    .right-card {
+        width: 100%;
+        height: 16.0625rem;
+        border-radius: 0 0 7px 7px;
+    }
+
+    .right-card > h4 {
+        font-weight: 700;
+        font-size: 1.1em;
+        margin: 1.7rem 0 0.5rem 1.5rem;
+    }
+}
