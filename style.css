@@ -142,12 +142,14 @@ button {
 @media (max-width: 700px) {
     .container-card {
         min-width: 100vh;
-        width: 16.25rem;
+        width: 6.25rem;
         height: 50rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.13);
+
     }
 
     .first-card {
@@ -202,7 +204,7 @@ button {
     }
 
     button {
-        padding: 0.8rem 6.5rem 1rem 6.5rem;
+        padding: 0.8rem 6rem 1rem 6rem;
         margin: 1.1rem 1rem 0 1.5rem;
         font-size: 1em;
     }
